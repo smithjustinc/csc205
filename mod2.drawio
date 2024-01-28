@@ -1,14 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-01-28T14:14:41.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nuO8JF0e6xyb_dfogXVA" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-28T15:44:44.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8Fk44ootGr4TofMk_B6Z" version="22.1.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="660" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="660" dy="2111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="wrr46Cn9LjaUi-LTdscb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wrr46Cn9LjaUi-LTdscb-1" target="wrr46Cn9LjaUi-LTdscb-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wrr46Cn9LjaUi-LTdscb-1" value="Ask user to enter letter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="wrr46Cn9LjaUi-LTdscb-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wrr46Cn9LjaUi-LTdscb-22" target="wrr46Cn9LjaUi-LTdscb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="40" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrr46Cn9LjaUi-LTdscb-1" value="Save UserInput as a String" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wrr46Cn9LjaUi-LTdscb-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wrr46Cn9LjaUi-LTdscb-5" target="wrr46Cn9LjaUi-LTdscb-7">
           <mxGeometry relative="1" as="geometry" />
@@ -19,7 +25,7 @@
         <mxCell id="wrr46Cn9LjaUi-LTdscb-5" value="Is the letter between A and E?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wrr46Cn9LjaUi-LTdscb-7" value="Print &quot;sunny&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="wrr46Cn9LjaUi-LTdscb-7" value="Output &quot;sunny&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wrr46Cn9LjaUi-LTdscb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wrr46Cn9LjaUi-LTdscb-9" target="wrr46Cn9LjaUi-LTdscb-11">
@@ -55,14 +61,17 @@
         <mxCell id="wrr46Cn9LjaUi-LTdscb-11" value="Is the letter between Q and X?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="520" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wrr46Cn9LjaUi-LTdscb-14" value="Print &quot;rainy&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="wrr46Cn9LjaUi-LTdscb-14" value="Output&amp;nbsp;&quot;rainy&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wrr46Cn9LjaUi-LTdscb-16" value="Print &quot;cloudy&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="wrr46Cn9LjaUi-LTdscb-16" value="Output&amp;nbsp;&quot;cloudy&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wrr46Cn9LjaUi-LTdscb-20" value="print &quot;That is not a valid option.&quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="wrr46Cn9LjaUi-LTdscb-20" value="Output&amp;nbsp;&quot;That is not a valid option.&quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wrr46Cn9LjaUi-LTdscb-22" value="Output &quot;Enter a Letter.&quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
