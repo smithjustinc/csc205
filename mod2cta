@@ -1,0 +1,9 @@
+Ask a user to enter a letter
+If the letter is between A and E
+print "sunny"
+If the letter is between J and P
+print "cloudy"
+If the letter is between Q and X
+print "rainy
+Else
+print "That is not a valid option"
