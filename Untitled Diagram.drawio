@@ -1,11 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T23:40:28.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jh2vAyA-q14vV-eDWwrk" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T22:51:26.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="epgtcsqhdPO3Ezf0oPXb" version="23.0.2" type="github">
   <diagram name="Page-1" id="C14EXn_yKdjlgQ9_Ll-G">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8hh03QTLWwlewmX1pYsr-1" value="Select a word." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-8" target="W_ifCWnahQHHYfMvCnPZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-8" value="Select a Word." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-14" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-11" target="W_ifCWnahQHHYfMvCnPZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-16" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-11" target="W_ifCWnahQHHYfMvCnPZ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-11" value="Is the first letter of the selected word a letter A-M?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-13" target="W_ifCWnahQHHYfMvCnPZ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-13" value="Open to the last page of the dictionary." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-15" target="W_ifCWnahQHHYfMvCnPZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-15" value="Open to the first page of the dictionary." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-22" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-19" target="W_ifCWnahQHHYfMvCnPZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-24" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-19" target="W_ifCWnahQHHYfMvCnPZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-19" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Is the guide word on the right page before the selected word alphabetically?&lt;/span&gt;&#xa;&#xa;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-21" target="W_ifCWnahQHHYfMvCnPZ-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-21" value="Turn 1 page to the right." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-23" target="W_ifCWnahQHHYfMvCnPZ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-23" value="Start at the first word on the left page." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-32" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-29" target="W_ifCWnahQHHYfMvCnPZ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-34" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-29" target="W_ifCWnahQHHYfMvCnPZ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-29" value="Is the word the selected word?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-31" target="W_ifCWnahQHHYfMvCnPZ-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-31" value="Move to the next sequential word." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-33" value="You have found the selected word in the dictionary." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-51" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-52" target="W_ifCWnahQHHYfMvCnPZ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-66" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-52" target="W_ifCWnahQHHYfMvCnPZ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-52" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Is the guide word on the left page after the selected word alphabetically?&lt;/span&gt;&lt;br&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-54" value="Turn 1 page to the left." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_ifCWnahQHHYfMvCnPZ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W_ifCWnahQHHYfMvCnPZ-54" target="W_ifCWnahQHHYfMvCnPZ-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
