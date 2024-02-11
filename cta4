@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-02-11T16:09:30.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="nCuFhE9tNhQ7AZlCOnbl" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-11T16:15:57.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JYSRoa9IS0HrG5GV1sI8" version="23.1.1" type="github">
   <diagram name="Page-1" id="QJDd1vSB9HY5rl-jOi86">
-    <mxGraphModel>
+    <mxGraphModel dx="590" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9h-Jqz1wqJ2h-LBPGwaj-1" target="9h-Jqz1wqJ2h-LBPGwaj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-1" value="Initialize userInput = 0&lt;br&gt;Initialize sales as an array" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-5" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9h-Jqz1wqJ2h-LBPGwaj-2" target="9h-Jqz1wqJ2h-LBPGwaj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-7" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9h-Jqz1wqJ2h-LBPGwaj-2" target="9h-Jqz1wqJ2h-LBPGwaj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-2" value="While userInput &amp;lt;100" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9h-Jqz1wqJ2h-LBPGwaj-4" target="9h-Jqz1wqJ2h-LBPGwaj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-4" value="OUTPUT&lt;br&gt;&quot;Enter a number: &quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-6" value="OUTPUT&lt;br&gt;&quot;The number entered exceeds 100&quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9h-Jqz1wqJ2h-LBPGwaj-8" target="9h-Jqz1wqJ2h-LBPGwaj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-8" value="userInput = USERINPUT" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9h-Jqz1wqJ2h-LBPGwaj-10" target="9h-Jqz1wqJ2h-LBPGwaj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9h-Jqz1wqJ2h-LBPGwaj-10" value="Append userInput * 10 to sales" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
